@@ -121,9 +121,17 @@ ul, ol{
 }
 
 .about-second{
-    padding-left: 300px;
+    margin: auto;
+    width: 60%;
+   
+    padding: 10px;
 }
 
+.row{
+    display: flex;
+   
+    align-items: center;
+}
 .row h2{
     font-size: 36px;
     font-weight: 800;
@@ -179,8 +187,6 @@ h3.experience-title {
 }
 
 @media (max-width: 500px){
-    .about-second{
-        padding-left: 20px;
-    }
+    
 }
 
