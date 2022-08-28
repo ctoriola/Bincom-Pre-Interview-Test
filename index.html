@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Bincom Pre-interview Test</title>
+  	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- stylesheets css -->
+    <link rel = "icon" href = "assets/images/favicon.png" type = "image/x-icon">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="assets/css/styles.css">
+
+   
+  	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
+    
+    <script type="text/javascript">
+        $(function () {
+            $(document).scroll(function () {
+            var $nav = $(".navbar-fixed-top");
+            $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</head>
+<body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+    <nav id="art-menu" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- for better mobile display -->
+            <div class="navbar-header ">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collasped">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+              <a class="navbar-brand" href="index.html">Charles D. Toriola</a>
+            </div>
+      
+            <!-- Navigation Toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collasped">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home" class="scroll-nav">Home</a></li>
+                    <li><a href="#car-obj" class="scroll-nav">Career Objective</a></li>                            
+                    <li><a href="#work-exp" class="scroll-nav">Work Experience</a></li>
+                    <li><a href="#projects" class="scroll-nav">Projects</a></li>
+                    <li><a href="#footer" class="scroll-nav">Contact</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div id="home" class="text-center">
+        <div>
+            <div class="content">
+                <div class="foreground">
+                    <img src="assets/images/profile_img.png" alt="" class="profile">
+                  </div>
+                <h1><strong><span class="input"></span></strong></h1>
+                <p class="lead">Resume</p>           
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="about">
+        <div class="row">
+            <div> <h2>Career Objective</h2> </div>
+
+            <div class="clearfix"></div>
+    
+            <div class="col-md-5 col-sm-7 "  style="visibility: visible;">
+                <p class="about-text">Graduate of computer science with experience working across the web development stack.</p>
+            </div>
+
+
+            <div class="  col-md-5 col-sm-7 about-second" style="width: 100%; visibility: visible; ">
+                <p class="about-text"> Looking for a role where I can grow and learn from experienced team members while drawing on previous project experience.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <section class="experience section-padding">
+        <div class="container">
+            <h3 class="experience-title">Work Experience</h3>
+        
+        <div class="experience-wrapper">
+            <div class="company-wrapper clearfix">
+                <div class="experience-title">Company name</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+            <div class="time">Nov 2012 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+            </div>
+          
+          <div class="job-wrapper clearfix">
+              <div class="experience-title">Front End Developer </div> <!-- JOB TITLE  -->
+            <div class="company-description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>  <!-- JOB DESCRIPTION  -->
+            </div>
+          </div>
+          
+          <div class="company-wrapper clearfix">
+                <div class="experience-title">Company name</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+            <div class="time">Nov 2010 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+            </div>
+          
+           <div class="job-wrapper clearfix">
+              <div class="experience-title">Freelance, Web Designer / Web Developer</div> <!-- JOB TITLE  -->
+            <div class="company-description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>  <!-- JOB DESCRIPTION  -->
+            </div>
+          </div>
+          
+          <div class="company-wrapper clearfix">
+                <div class="experience-title">Company name</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+            <div class="time">Nov 2009 - Nov 2010</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+            </div> 
+          
+           <div class="job-wrapper clearfix">
+              <div class="experience-title">Web Designer </div> <!-- JOB TITLE  -->
+            <div class="company-description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>   <!-- JOB DESCRIPTION  -->
+            </div>
+          </div>
+    </div>
+    </div>
+    </section>
+
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+       var typed = new Typed(".input", {
+           strings:["Charles Demilade Toriola"],
+           typeSpeed: 70,
+           backSpeed: 60,
+           loop: false
+       });
+    </script>
+</body>
+</html>
