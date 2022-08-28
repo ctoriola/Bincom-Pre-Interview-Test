@@ -69,8 +69,9 @@ ul, ol{
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #66cc99;
-    border-color: #66cc99;
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
     background-color: #FFF;
@@ -78,6 +79,28 @@ ul, ol{
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
 }
+#art-menu.navbar-default {
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+#art-menu a.navbar-brand {
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #66cc99;
+    font-weight: 900;
+}
+#art-menu a.navbar-brand:hover{
+    color: #ffffff;
+}
+#art-menu.navbar-default .navbar-nav > li > a {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #66cc99;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
 
 #home{
     background: #0c164d url("../images/home-bg.jpg") no-repeat fixed center;
@@ -103,7 +126,7 @@ ul, ol{
 
 /* About Section
 ==============================*/
-#about{
+#car-obj{
     color: #57a57e;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -115,7 +138,7 @@ ul, ol{
     color: #4b4b4b;
 }
 
-#about .col-md-5{
+#car-obj .col-md-5{
     padding-top: 20px;
     padding-bottom: 20px;
 }
