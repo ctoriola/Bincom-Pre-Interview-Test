@@ -1,3 +1,4 @@
+
 html {
     scroll-behavior: smooth;
   }
@@ -201,7 +202,7 @@ h3.experience-title {
 }
 .experience-title {
     color:white;
-    margin-bottom:15px;;
+    margin-bottom:10px;;
 }
 
 
@@ -472,12 +473,15 @@ h3.experience-title {
     }
 }
 
-@media (max-width: 700px){
-    .project img {
-        height: 150px;
-        width: 250px;
+@media (max-width: 620px){
+    .feex{
+        width: 60%;
+    }
+    .feex2{
+        margin-left: -26vw;
     }
 }
+    
 
 @media (max-width: 700px){
     .project img {
